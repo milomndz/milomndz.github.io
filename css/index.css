@@ -1,0 +1,171 @@
+body{
+    background-color: #001122;
+}
+navbar{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#principal{
+    margin-top: 13vh;
+    background-image: url("../img/fondo1.png");
+    background-color: #cccccc;
+    height: 72vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.active{
+    padding-bottom: 10px;
+    padding-top:17px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffb600;
+    border-bottom-width: 5px;
+}
+.nav-item{
+    padding-top: 17px;
+}
+
+.card-logo{
+    width:31vw;
+    text-align: center;
+    background-color: #011b2d;
+    opacity: 0.6;
+    align-content: center;
+    margin-left: 10vw;
+    margin-top: 230px;
+    z-index: 1;
+    height: 65vh;
+}
+
+#pizza{
+    margin-left:152px;
+    margin-top: -20px;
+}
+
+#quienes-p{
+    height: 48vh;
+}
+
+#quienes-1{
+    background-color: #ffb600;
+    width: 31vw;
+    display: flex;
+    text-align: center;
+    height: 50vh;
+    justify-content: center;
+}
+
+#trabajo-1{
+    background-color: white;
+    padding: 5vh 8vh 5vh 20vh;
+}
+
+#subprincipal{
+    margin-top:45vh; 
+}
+
+#trabajo-2{
+    background-image: url("../img/fondo2.png");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#quienes-2{
+    background-color: white;
+    height: 50vh;
+    width: 50vw;
+    padding: 5vh;
+}
+
+.subtitulo{
+    font-size: 27pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #001122;
+}
+
+.subtitulo-b{
+    font-size: 27pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.parrafos{
+    margin-top: 4vh;
+    text-align: center;
+    padding: 5vh 8vh 5vh 20vh;
+}
+
+#raya-izq{
+    padding-left: 8px;
+    border-left-style: solid;
+    border-left-color: #ffb600;
+    border-left-width: 5px;
+    padding-left: 12vh;
+}
+
+.parrafo{
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: #000000;
+}
+
+.parrafo-b{
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.raya{
+    height: 5px; 
+    margin-left:5px;
+    margin-right: 230px;
+}
+
+.raya-1{
+    height: 5px; 
+    margin-left:5px;
+    margin-right: 430px;
+}
+
+.texto{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+#footers{
+    background-color: #ffffff;
+    padding-top: 4vh;
+}
+
+#footer-redes{
+    background-color: #e6e6e6;
+    padding-left: 18vh;
+}
+
+.footer-p{
+    padding-top: 2.5vh;
+    padding-left: 12vh;
+    color: #808080;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parrafo-2{
+    font-size: 18pt;
+    font-family: 'Montserrat', sans-serif;
+}
