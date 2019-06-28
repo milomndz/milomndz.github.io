@@ -219,6 +219,9 @@ navbar{
     color: #ddd;
     text-align: justify;
   }
+  .form-modal{
+      padding: 4vh;
+  }
   /* Style the buttons inside the tab */
   .tab button {
     font-family: 'Montserrat', sans-serif;
@@ -234,8 +237,9 @@ navbar{
     font-weight: bold;
     background-color: #ddd;
     color: #7c7c7c;
-
-
+  }
+  colmol{
+      background-color: #011b2d;
   }
   
   /* Change background color of buttons on hover */
