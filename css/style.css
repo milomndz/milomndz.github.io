@@ -147,6 +147,46 @@ navbar{
     text-align: center;
 }
 
+#contact{
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/fondo-contactos.png');
+}
+
+.form {
+    width:31vw;
+    text-align: center;
+    background-color: rgba(1,27,45,0.6);
+    align-content: right;
+    padding: 1vw;
+    margin-left: 67vw;
+    margin-top: 230px;
+    z-index: 1;
+    height: 700px;
+}
+
+.lin{
+    height: 10px;
+    margin-bottom: 3em;
+    background: #ffb600;
+}
+
+.text_servicios{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #7c7c7c;
+    margin: 4% 0 4% 0;
+    text-align: center
+}
+
+.text-cont{
+    font-size: 27pt;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #ffffff;
+}
 #footers{
     background-color: #ffffff;
     padding-top: 4vh;
