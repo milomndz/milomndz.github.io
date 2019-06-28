@@ -166,8 +166,17 @@ navbar{
 }
 
 .lin{
+  
     height: 10px;
     background: #ffb600;
+}
+
+.linv{
+    margin-left: -5vh;
+    border:         none;
+    border-right:    5px solid  #ffb600;
+    height:         10vh;
+    width:          20px;
 }
 
 .text_servicios{
@@ -238,7 +247,7 @@ navbar{
     background-color: #ddd;
     color: #7c7c7c;
   }
-  text-modal{
+  .text-modal{
     font-weight: bold;
     color: #00bfb1;
   }
