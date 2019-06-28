@@ -238,8 +238,9 @@ navbar{
     background-color: #ddd;
     color: #7c7c7c;
   }
-  colmol{
-      background-color: #011b2d;
+  text-modal{
+    font-weight: bold;
+    color: #00bfb1;
   }
   
   /* Change background color of buttons on hover */
