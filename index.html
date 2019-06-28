@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-
+    <script src="js/script.js"></script>
+    
 </head>
 <body>
     <header>
@@ -80,44 +81,94 @@
     </div>
     
     <div class="container-fluid" id="contact">
-        <div class="form">
+        <div class="form">                <div class="col-2 lin"></div>
+
            <div class="pop-up">
-                <div class="col-2 lin"></div>
                 <h2 class="text-cont">CONTÁCTANOS</h2>
-                <p>Seleccciona la categoria que se acople a tus necesidades y ponte en contacto con nosotros.</p>
-                <div class="row">
-                    <div class="col-6"><button>EMPRESA</button></div>
-                    <div class="col-6"><button>CANDIDATO</button></div>
-                </div>
+                <h5 class="inst">Seleccciona la categoria que se acople a tus necesidades y ponte en contacto con nosotros.</h5>
                 <br>
-                <form action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-                    <div class="form-group">
-                            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
-                            <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-                    <div class="form-group">
-                            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
-                            <div class="valid-feedback">Valid.</div>
-                            <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>     
-                    <div class="form-group">
-                            <textarea class="form-control" rows="5" id="comment"  placeholder="Enter username"></textarea>
-                    </div> 
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+               
+                <div>
+                        <div class="tab">
+                                <button class="tablinks" onclick="openCity(event, 'London')">EMPRESA</button>
+                                <button class="tablinks" onclick="openCity(event, 'Paris')">CANDIDATO</button>
+                              </div>
+                              <br>
+
+                              <div id="London" class="tabcontent">
+                                   
+                                <form action="">
                     
-                </form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="uname" placeholder="NOMBRE Y APELLIDO" name="uname" required>
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="pwd" placeholder="TELÉFONO" name="pswd" required>
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                            <div class="form-group">
+                                                    <input type="text" class="form-control" id="uname" placeholder="CORREO ELECTRONICO" name="uname" required>
+                                                    <div class="valid-feedback">Valid.</div>
+                                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                            <div class="form-group">
+                                                    <input type="text" class="form-control" id="uname" placeholder="ASUNTO" name="uname" required>
+                                                    <div class="valid-feedback">Valid.</div>
+                                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>     
+                                            <div class="form-group">
+                                                    <textarea class="form-control" rows="5" id="comment"  placeholder="ESCRIBA AQUI SU MENSAJE"></textarea>
+                                            </div> 
+                                            <div class="form-group">
+                                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                            </div>
+                                            <button type="submit" class="btn btn-warning">ENVIAR</button>
+                                            </form>
+                                            
+                                        </form>
+                              </div>
+                              
+                              <div id="Paris" class="tabcontent">
+                                    <form action="">
+                    
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="uname" placeholder="NOMBRE Y APELLIDO" name="uname" required>
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="pwd" placeholder="TELÉFONO" name="pswd" required>
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                            <div class="form-group">
+                                                    <input type="text" class="form-control" id="uname" placeholder="CORREO ELECTRONICO" name="uname" required>
+                                                    <div class="valid-feedback">Valid.</div>
+                                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                            <div class="form-group">
+                                                    <input type="text" class="form-control" id="uname" placeholder="ASUNTO" name="uname" required>
+                                                    <div class="valid-feedback">Valid.</div>
+                                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>     
+                                            <div class="form-group">
+                                                    <textarea class="form-control" rows="5" id="comment"  placeholder="ESCRIBA AQUI SU MENSAJE"></textarea>
+                                            </div> 
+                                            <button type="submit" class="btn btn-warning">ENVIAR</button>
+                                            </form>
+                                            
+                                        </form>
+                              </div>
+                              
+                             
+
+                </div>
+               
+                <br>
+               
            </div>
         </div>
     </div>
