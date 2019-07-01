@@ -5,7 +5,9 @@ navbar{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
-
+.serv{
+    background-color: #cccccc;
+}
 #principal{
     margin-top: 13vh;
     background-image: url("../img/fondo1.png");
