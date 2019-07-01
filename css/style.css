@@ -269,3 +269,262 @@ navbar{
     padding: 6px 12px;
     border-top: none;
   }
+
+/*Código de Servicios (parte de Herberth)*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.menu{
+    height: 100px;
+    background: #13004f;
+}
+.cont_ini{
+    height: auto;
+}
+.nues_ser{
+    height: auto;
+    background: #ffffff;
+}
+.img_nues_ser{
+    height: auto;
+    background: #ffffff;
+}
+.letra_nues{
+    height: 300px;
+    background: white;
+}
+.linea_nues{
+    height: auto;
+    background: #ffffff;
+}
+.linea_naranja{
+    height: 10px;
+    margin-top: 3em;
+    background: #ffb600;
+}
+.letra1_nues{
+    height: auto;
+    background: #ffffff;
+}
+.letra_1_letra{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 240%;
+    font-weight: 800;
+    color: #001122;
+    margin-left: -4%;
+}
+.desc_nues{
+    height: auto;
+    background: #ffffff;
+}
+.letra_2_letra{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    text-align: justify;
+    color: #000000;
+    margin-left: -4%;
+}
+.img_nues_1{
+    height: 300px;
+    background: #ffffff;
+}
+.img_1_ser{
+    height: 100%;
+    width: auto;
+}
+.font_parra1{
+    background: #001122;
+}
+.parra1{
+    height: auto;
+}
+.letra_3_letra{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+    text-align: center;
+    color: #ffffff;
+    margin: 3% 0 3% 0;
+}
+.servi_cont{
+    margin-bottom: 3em;
+}
+.ser{
+    height: auto;
+}
+.text_nue_ser{
+    height: auto;
+    background: #ffb600;
+    margin-top: -2%;
+}
+.linea_verti{
+    height: 100px;
+}
+.linea_nue{
+    background: #ffffff;
+    height: 4em;
+    width: 0.5em;
+    margin-top: 1.4em;
+}
+.nue_ser_text{
+    height: auto;
+}
+.nue_ser_letra1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 180%;
+    font-weight: 800;
+    color: #001122;
+    margin: 4% 0 4% 0;
+}
+.text_selec{
+    height: auto;
+}
+.text_select_1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 130%;
+    color: #000000;
+    margin: 5% 0 5% -3%;
+}
+.menu_servicio{
+    border: none;
+}
+.empresariales{
+    height: auto;
+    background: #eef0ef;
+}
+.candidatos{
+    height: auto;
+    background: #eef0ef;
+}
+.centro{
+    height: auto;
+    background: #eef0ef;
+}
+.empresariales, .candidatos, .centro{
+    cursor: pointer;
+}
+.cont{
+    height: 100%;
+}
+.text_servicios{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #7c7c7c;
+    margin: 4% 0 4% 0;
+    text-align: center
+}
+/*Aquí empieza el css de servicios empresariales*/
+.cont_empre{
+    height: auto;
+    background: #eef0ef;
+    padding-bottom: 4em;
+}
+.empre_info{
+    height: auto;
+    background: #ffffff;
+    margin: 2em 0 2em 0;
+}
+.img_empre{
+    height: auto;
+    width: 100%;
+    margin-top: 4%;
+}
+.titulo_empre{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #000000;
+    margin: 4% 0 4% 0;
+    text-align: center;
+}
+.linea_empre{
+    width: auto;
+    height: 0.2em;
+    background: #ffb600;
+    margin: -3% 0;
+}
+.text_empre{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    color: #000000;
+    margin: 4% 0 4% 0;
+    text-align: center;
+    margin: -1% 0 2% 0;
+}
+.bt_info{
+    width: auto;
+    height: auto;
+    background: #ffb600;
+}
+.bt_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+/*Aquí acaba el css de servicios empresariales*/
+
+/*Aquí empieza el css para candidatos*/
+.cont_txt_candi h1{
+    margin: 0px;
+    padding: 0px;
+}
+.cont_candi{
+    height: auto;
+    padding-bottom: 4em;
+}
+.cont_img_candi{
+    height: auto;
+}
+.txt_img_candi{
+    height: auto;
+}
+.img_candi{
+    width: 100%;
+    height: auto;
+}
+.txt_conte_img{
+    height: 100%;
+}
+.cont_txt_candi{
+    height: auto;
+}
+.txt_candi{
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: 800;
+    color: #000000;
+    margin: 5% 0 5% 0;
+}
+.bt_apli{
+    height: auto;
+    background: #ffb600;
+    margin-top: 1em;
+    padding: 0.1em 0;
+}
+.txt_bt_apli{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+/*Aquí acaba el css para candidatos*/
+
+/*Aquí acaba el código de Servicios*/
