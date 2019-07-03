@@ -1,13 +1,30 @@
 body{
     background-color: #001122;
 }
-navbar{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+.txt_nav{
+    font-family:'Montserrat',sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cont_menu{
+    width: 100%;
+}
+.nav_menu{
+    background-color: #13004f; margin: 0;
+    padding: 0;
+    height: auto;
+}
+.menu_li{
+    margin: 0 4%;
+}
+.logo_menu{
+    height: auto;
+    width: 100%;
 }
 .serv{
     background-color: #cccccc;
 }
+
 #principal{
     margin-top: 13vh;
     background-image: url("../img/fondo1.png");
@@ -22,7 +39,7 @@ navbar{
     align-content: center;
 }
 
-.active{
+.header_menu .active{
     padding-bottom: 10px;
     padding-top:17px;
     border-bottom-style: solid;
