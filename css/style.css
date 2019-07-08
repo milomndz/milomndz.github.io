@@ -27,7 +27,7 @@ body {
 }
 
 #principal {
-  margin-top: 13vh;
+  margin-top: 12vh;
   background-image: url("../img/fondo1.png");
   background-color: #cccccc;
   height: 90vh;
@@ -54,13 +54,13 @@ body {
 .card-logo {
   width: 31vw;
   text-align: center;
-  background-color: #011b2d;
-  opacity: 0.6;
   align-content: center;
   margin-left: 10vw;
   margin-top: 175px;
+  padding-top: 1rem;
   z-index: 1;
   height: 75vh;
+  background: rgba(1, 27, 45, 0.6);
 }
 
 #pizza {
@@ -173,9 +173,23 @@ body {
 }
 
 .raya-2 {
-  height: 5px;
+  height: 4px;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.raya-3 {
+  margin-top: 0px;
+  height: 5px;
+  margin-left: 125px;
+  margin-right: 410px;
+}
+
+.raya-4 {
+  margin-top: 0px;
+  height: 5px;
+  margin-left: 90px;
+  margin-right: 430px;
 }
 
 .raya {
@@ -266,6 +280,11 @@ body {
 #footer-redes {
   background-color: #e6e6e6;
   padding-left: 18vh;
+}
+
+.redes-img {
+  width: 45px;
+  height: 45px;
 }
 
 .footer-p {
