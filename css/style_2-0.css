@@ -12,22 +12,27 @@
     font-size: 1em;
     font-weight: 600;
 }
+
 .cont_menu {
     width: 100%;
 }
+
 .nav_menu {
     background-color: #13004f;
     margin: 0;
     padding: 0;
     height: auto;
 }
+
 .menu_li {
     margin: 0 4%;
 }
+
 .logo_menu {
     height: auto;
     width: 100%;
 }
+
 .header_menu .active {
     padding-bottom: 10px;
     padding-top: 17px;
@@ -35,43 +40,51 @@
     border-bottom-color: #ffb600;
     border-bottom-width: 5px;
 }
+
 .nav-item {
     padding-top: 17px;
 }
+
 /*Menú end*/
 
 /*Principal*/
-.principal{
+.principal {
     padding-bottom: 4%;
     background-image: url("../img/fondo1.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #001122;
 }
-.cont_1_princi{
+
+.cont_1_princi {
     height: auto;
 }
-.cont_logo{
+
+.cont_logo {
     height: auto;
     background-color: rgba(1, 27, 45, 0.6);
 }
-.cont_info_princi{
+
+.cont_info_princi {
     height: auto;
     width: 100%;
     background: black;
 }
-.img_logo_princi{
+
+.img_logo_princi {
     width: 100%;
     height: auto;
     margin-top: 30%;
 }
-.linea_princi{
+
+.linea_princi {
     height: 0.3em;
     width: 100%;
     background: #ffb600;
     margin: 1% 0;
 }
-.txt_logo_1{
+
+.txt_logo_1 {
     font-size: 2.1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -79,55 +92,67 @@
     text-align: center;
     line-height: normal;
 }
-.princi_icono_cont{
+
+.princi_icono_cont {
     height: auto;
     background: #ffb600;
 }
-.cont_img_quien{
+
+.cont_img_quien {
     height: 100%;
 }
-.img_quienes{
+
+.img_quienes {
     width: 100%;
     height: auto;
 }
-.col_quienes{
+
+.col_quienes {
     background: white;
 }
-.txt_quienes{
+
+.txt_quienes {
     font-size: 2.1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #001122;
     text-align: justify;
 }
-.col_info_quienes{
+
+.col_info_quienes {
     margin: 2% 0;
 }
-.linea_princi2{
+
+.linea_princi2 {
     height: 0.15em;
     width: 100%;
     background: #ffb600;
     margin: 1% 0;
 }
-.txt_des_quienes{
+
+.txt_des_quienes {
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     text-align: justify;
     line-height: normal;
 }
-.txt_nuestro{
+
+.txt_nuestro {
     height: auto;
 }
-.txt_nuestro_2{
+
+.txt_nuestro_2 {
     height: 100%;
 }
-.linea_equi{
+
+.linea_equi {
     width: 20%;
     height: 0.4em;
     background: #ffb600;
 }
-.txt_nue_eq{
+
+.txt_nue_eq {
     padding: 0;
     font-size: 1.6em;
     font-family: 'Montserrat', sans-serif;
@@ -135,28 +160,34 @@
     color: #001122;
     line-height: normal;
 }
-.txt_nue_eq_2{
+
+.txt_nue_eq_2 {
     padding: 0;
     font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
     color: #001122;
     line-height: normal;
 }
-.img_fondo2{
+
+.img_fondo2 {
     width: 100%;
     height: auto;
 }
-.cont_img_fondo2{
+
+.cont_img_fondo2 {
     padding: 0;
     height: auto;
 }
-.mis_vis{
+
+.mis_vis {
     background: #001122;
 }
-.cont_mis_vis{
+
+.cont_mis_vis {
     margin: 4% 0;
 }
-.txt_mision_1{
+
+.txt_mision_1 {
     padding: 0;
     font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
@@ -165,7 +196,8 @@
     line-height: normal;
     text-align: center;
 }
-.txt_mision_2{
+
+.txt_mision_2 {
     padding: 0;
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
@@ -173,19 +205,23 @@
     line-height: normal;
     text-align: center;
 }
-.cont_linea{
+
+.cont_linea {
     height: 100%;
 }
-.linea_mis_vis{
+
+.linea_mis_vis {
     width: 100%;
     height: 100%;
     text-align: center;
 }
-.linea_mis_vis_2{
+
+.linea_mis_vis_2 {
     width: 0.4em;
     height: 100%;
     background: #ffb600;
 }
+
 /*Principal end*/
 
 .serv {
@@ -205,6 +241,7 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
 .card-logo {
     width: 31vw;
     text-align: center;
@@ -334,7 +371,7 @@
     align-content: right;
     padding: 1vw;
     margin-left: 67vw;
-    margin-top: 230px;
+    margin-top: 85px;
     z-index: 1;
     height: 700px;
 }
@@ -371,13 +408,15 @@
 }
 
 /*Inicio de css de Footer*/
-.footer{
+.footer {
     background: #e6e6e6;
 }
-.footer_2{
+
+.footer_2 {
     margin: 2% 0;
 }
-.txt_siguenos{
+
+.txt_siguenos {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -385,40 +424,49 @@
     font-weight: 700;
     color: #000000;
 }
-.cont_redes{
+
+.cont_redes {
     padding: 1% 0;
 }
-.img_iconos{
+
+.img_iconos {
     padding: 0;
 }
-.img_redes{
+
+.img_redes {
     width: 100%;
     height: auto;
 }
-.txt_redes{
+
+.txt_redes {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     color: #000000;
 }
-.cont_txt_redes{
+
+.cont_txt_redes {
     height: 100%;
 }
-.txt_redes p{
+
+.txt_redes p {
     padding: 0 0 0 5%;
     margin: 0;
 }
-.txt_info_footer{
+
+.txt_info_footer {
     padding: 1% 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 80%;
     color: #808080;
     text-align: center;
 }
-.txt_info_footer p{
+
+.txt_info_footer p {
     padding: 0;
     margin: 0;
 }
+
 /*Fin de css de Footer*/
 
 /* Style the tab */
