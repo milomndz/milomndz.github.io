@@ -356,7 +356,7 @@
     font-size: 20px;
   }
 
-  .custom-file-input~.custom-file-label::after {
+  .custom-file-input ~ .custom-file-label::after {
     content: "EXAMINAR";
   }
 
@@ -373,15 +373,12 @@
   }
 
   .file-box {
-
-
     display: inline-block;
     width: 100%;
     padding: 10px 0px 5px 5px;
     box-sizing: border-box;
     color: #cccccc;
-    font-family: "Montserrat",
-      sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     height: calc(2rem - 2px);
   }
@@ -397,7 +394,6 @@
     top: 0px;
     right: 0px;
   }
-
 
   .text-cont {
     font-size: 14pt !important;
