@@ -12,9 +12,14 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap">
-    <link rel="stylesheet" href="/css/style_3-0.css">
+    <link rel="stylesheet" href="/css/style_2-0.css">
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!--Firebase Things-->
+
+
 
 
 </head>
@@ -23,32 +28,51 @@
     <!--inicio de corrección-->
     <header class="header_menu container">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top row nav_menu">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" id="logo_menu" alt="logo">
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 menu_ul">
-                    <li class="nav-item menu_li">
-                        <a class="nav-link txt_nav" href="index_3-0.html">INICIO</a>
-                    </li>
-                    <li class="nav-item  menu_li">
-                        <a class="nav-link txt_nav" href="servicios_3-0.html">SERVICIOS </a>
-                    </li>
-                    <li class="nav-item active menu_li">
-                        <a class="nav-link txt_nav" href="#">CONTACTO <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>    
+            <div class="col-12 collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="row cont_menu">
+                    <div class="col-md-5 offset-md-1">
+                        <div class="row justify-content-start">
+                            <div class="col-md-6">
+                                <a class="navbar-brand" href="#">
+                                    <img src="img/logo.png" class="logo_menu" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7">
+                                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                    <li class="nav-item active menu_li">
+                                        <a class="nav-link txt_nav" href="index_3-0.html">INICIO
+                                    </li>
+                                    <li class="nav-item menu_li">
+                                        <a class="nav-link txt_nav" href="servicios_3-0.html">SERVICIOS</a>
+                                    </li>
+                                    <li class="nav-item menu_li">
+                                        <a class="nav-link txt_nav" href="contacto_3-0.html">CONTACTO <span
+                                                class="sr-only">(current)</span></a></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
     <!--finalización de correcció-->
 
-    <!--Inicio de página de Inicio-->
+    <!--Inicio de página de Contactos-->
     <div class="container-fluid" id="contact">
+
         <div class="form">
+            <div class="col-2 lin"></div>
+
             <div class="pop-up">
                 <h2 class="text-cont">CONTÁCTANOS</h2>
                 <h5 class="inst">
@@ -58,19 +82,35 @@
 
                 <div>
                     <div class="tab">
-                        <button class="tablinks btn1" onclick="openCity(event, 'London')">
+                        <button class="tablinks" onclick="openForm(event, 'Empresa')">
                             EMPRESA
                         </button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">
+                        <button class="tablinks" onclick="openForm(event, 'Candidato')">
                             CANDIDATO
                         </button>
                     </div>
-                    <div id="London" class="tabcontent">
+                    <br />
+
+                    <div name="Empresa" id="Empresa" class="tabcontent">
+
+
                         <form action="">
                             <div class="form-group">
-                                <br><br>
+                                <input id="id" name="prodId" type="hidden" value="0">
+                                <input type="text" class="form-control" id="name" placeholder="NOMBRE Y APELLIDO"
+                                    name="uname" required />
 
-                                <input type="text" class="form-control" id="uname" placeholder="NOMBRE Y APELLIDO"
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="tel" placeholder="TELÉFONO" name="pswd"
+                                    data-inputmask="'mask': '9999-9999'" required />
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">
+                                    Please fill out this field.
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="CORREO ELECTRONICO"
                                     name="uname" required />
                                 <div class="valid-feedback">Valid.</div>
                                 <div class="invalid-feedback">
@@ -78,7 +118,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="pwd" placeholder="TELÉFONO" name="pswd"
+                                <input type="text" class="form-control" id="subject" placeholder="ASUNTO" name="uname"
                                     required />
                                 <div class="valid-feedback">Valid.</div>
                                 <div class="invalid-feedback">
@@ -86,37 +126,60 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="uname" placeholder="CORREO ELECTRONICO"
-                                    name="uname" required />
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">
-                                    Please fill out this field.
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="uname" placeholder="ASUNTO" name="uname"
-                                    required />
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">
-                                    Please fill out this field.
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="5" id="comment"
+                                <textarea class="form-control" rows="5" id="body"
                                     placeholder="ESCRIBA AQUI SU MENSAJE"></textarea>
                             </div>
-                            <div class="form-group">
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1" />
+
+
+                            <div>
+                                <div class="inputfile-box">
+                                    <input type="file" id="file" class="inputfile" ref="fileInput"
+                                        onchange='uploadFile(this)'>
+                                    <label for="file">
+                                        <span id="file-name" class="file-box">
+                                            <li>ADJUNTAR ARCHIVO: </li>
+                                        </span>
+                                        <span class="file-button">
+                                            EXAMINAR
+                                        </span>
+                                    </label>
+                                </div>
                             </div>
-                            <button type="submit" class="btn btn-warning" onclick="sendEma()">ENVIAR</button>
+                            <!--
+                            <div class="custom-file" id="customFile" lang="es">
+                                <input type="file" class="custom-file-input" id="exampleInputFile"
+                                    aria-describedby="fileHelp">
+                                <label class="custom-file-label" for="exampleInputFile">
+                                    ADJUNTAR ARCHIVO
+                                </label>
+                            </div>-->
+                            <br>
+
+
+
+                            <span class="btn_snd btn btn-warning" onclick="sendEmaFile()">ENVIAR</span>
                         </form>
                     </div>
+                    <!--Candiadto-->
+                    <div name="Candidato" id="Candidato" class="tabcontent">
 
-                    <div id="Paris" class="tabcontent">
                         <form action="">
-                            <br><br>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="uname" placeholder="NOMBRE Y APELLIDO"
+
+                                <input type="text" class="form-control" id="nameC" placeholder="NOMBRE Y APELLIDO"
+                                    name="uname" required />
+
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="telC" placeholder="TELÉFONO" name="pswd"
+                                    data-inputmask="'mask': '9999-9999'" required />
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">
+                                    Please fill out this field.
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="emailC" placeholder="CORREO ELECTRONICO"
                                     name="uname" required />
                                 <div class="valid-feedback">Valid.</div>
                                 <div class="invalid-feedback">
@@ -124,7 +187,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="pwd" placeholder="TELÉFONO" name="pswd"
+                                <input type="text" class="form-control" id="subjectC" placeholder="ASUNTO" name="uname"
                                     required />
                                 <div class="valid-feedback">Valid.</div>
                                 <div class="invalid-feedback">
@@ -132,26 +195,11 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="uname" placeholder="CORREO ELECTRONICO"
-                                    name="uname" required />
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">
-                                    Please fill out this field.
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="uname" placeholder="ASUNTO" name="uname"
-                                    required />
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">
-                                    Please fill out this field.
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="5" id="comment"
+                                <textarea class="form-control" rows="5" id="bodyC"
                                     placeholder="ESCRIBA AQUI SU MENSAJE"></textarea>
                             </div>
-                            <button type="submit" onclick="sendEma()" class="btn btn-warning">ENVIAR</button>
+
+                            <span class="btn_snd btn btn-warning" onclick="sendEma(1)">ENVIAR</span>
                         </form>
                     </div>
                 </div>
@@ -237,12 +285,12 @@
 
                 <div>
                     <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'London')">EMPRESA</button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">CANDIDATO</button>
+                        <button class="tablinks" onclick="openForm(event, 'Empresa')">EMPRESA</button>
+                        <button class="tablinks" onclick="openForm(event, 'Candidato')">CANDIDATO</button>
                     </div>
                     <br>
 
-                    <div id="London" class="tabcontent">
+                    <div id="Empresa" class="tabcontent">
 
                         <form action="">
 
@@ -278,7 +326,7 @@
 
                     </div>
 
-                    <div id="Paris" class="tabcontent">
+                    <div id="Candidato" class="tabcontent">
                         <form action="">
 
                             <div class="form-group">
@@ -326,9 +374,9 @@
         <div class="row">
             <div class="col-12 footer">
                 <div class="row justify-content-center">
-                    <div class="col-md-10 col-11 footer_2">
+                    <div class="col-md-10 footer_2">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-md-6">
                                 <div class="row">
                                     <div class="col-12 txt_siguenos">
                                         <p>
@@ -337,12 +385,12 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-lg-6 col-12 cont_redes">
+                                            <div class="col-md-6 cont_redes">
                                                 <div class="row">
-                                                    <div class="col-sm-2 col-2 img_iconos">
+                                                    <div class="col-md-2 img_iconos">
                                                         <img src="img/facebook.png" class="img_redes" alt="">
                                                     </div>
-                                                    <div class="col-sm-10 col-10">
+                                                    <div class="col-md-10">
                                                         <div class="row align-items-center cont_txt_redes">
                                                             <div class="col-12 txt_redes">
                                                                 <p>@NewEmploymentsv</p>
@@ -351,12 +399,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-12 cont_redes">
+                                            <div class="col-md-6 cont_redes">
                                                 <div class="row">
-                                                    <div class="col-sm-2 col-2 img_iconos">
+                                                    <div class="col-md-2 img_iconos">
                                                         <img src="img/wha.png" class="img_redes" alt="">
                                                     </div>
-                                                    <div class="col-sm-10 col-10">
+                                                    <div class="col-md-10">
                                                         <div class="row align-items-center cont_txt_redes">
                                                             <div class="col-12 txt_redes">
                                                                 <p>6200-3437</p>
@@ -365,12 +413,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-12 cont_redes">
+                                            <div class="col-md-6 cont_redes">
                                                 <div class="row">
-                                                    <div class="col-sm-2 col-2 img_iconos">
+                                                    <div class="col-md-2 img_iconos">
                                                         <img src="img/linkedIn.png" class="img_redes" alt="">
                                                     </div>
-                                                    <div class="col-sm-10 col-10">
+                                                    <div class="col-md-10">
                                                         <div class="row align-items-center cont_txt_redes">
                                                             <div class="col-12 txt_redes">
                                                                 <p>New Employment</p>
@@ -383,7 +431,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-md-6">
                                 <div class="row">
                                     <div class="col-12 txt_siguenos">
                                         <p>
@@ -392,15 +440,16 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-12 cont_redes">
+                                            <div class="col-md-12 cont_redes">
                                                 <div class="row">
-                                                    <div class="col-lg-1 col-sm-2 col-2 img_iconos">
+                                                    <div class="col-md-1 img_iconos">
                                                         <img src="img/ubicacion.png" class="img_redes" alt="">
                                                     </div>
-                                                    <div class="col-lg-11 col-sm-10 col-10">
+                                                    <div class="col-md-11">
                                                         <div class="row align-items-center cont_txt_redes">
                                                             <div class="col-12 txt_redes">
-                                                                <p>5a calle poniente #3970, entre 75 y 77 avenida norte, Centro de Negocios Kimax, Colonia Escalón.</p>
+                                                                <p>5a calle poniente #3970, entre 75 y 77 avenida norte,
+                                                                    Centro de Negocios Kimax, Colonia Escalón.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -441,6 +490,35 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+              https://firebase.google.com/docs/web/setup#config-web-app -->
+
+
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-storage.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyB2PEEAUiiXBGnJ5vBRMlL5fc78BrMtXM0",
+        authDomain: "newemployment-9e2b5.firebaseapp.com",
+        databaseURL: "https://newemployment-9e2b5.firebaseio.com",
+        projectId: "newemployment-9e2b5",
+        storageBucket: "newemployment-9e2b5.appspot.com",
+        messagingSenderId: "477253988326",
+        appId: "1:477253988326:web:d7f4f5ca1f1dd9f6"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.storage().ref();
+</script>
+<script src="js/script.js"></script>
 
 </html>

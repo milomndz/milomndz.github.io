@@ -347,6 +347,58 @@
     height: 110vh !important;
   }
 
+  .btn_snd {
+    width: 10rem;
+    height: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+
+  .custom-file-input~.custom-file-label::after {
+    content: "EXAMINAR";
+  }
+
+  .inputfile-box {
+    position: relative;
+  }
+
+  .inputfile {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .file-box {
+
+
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px 5px 5px;
+    box-sizing: border-box;
+    color: #cccccc;
+    font-family: "Montserrat",
+      sans-serif;
+    font-size: 15px;
+    height: calc(2rem - 2px);
+  }
+
+  .file-button {
+    background: #cccccc;
+    font-weight: bold;
+    color: #333131;
+    padding: 0.7rem;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    top: 0px;
+    right: 0px;
+  }
+
+
   .text-cont {
     font-size: 14pt !important;
   }

@@ -362,10 +362,9 @@
   width: 100%;
   height: 700px;
   background-image: url("../img/fondo-contactos.png");
-  background-repeat: no-repeat;
-  background-color: #001122;
 }
 
+/*Inicio Nuevo Contactos*/
 .form {
   width: 31vw;
   text-align: center;
@@ -373,10 +372,64 @@
   align-content: right;
   padding: 1vw;
   margin-left: 67vw;
-  margin-top: 85px;
+  margin-top: 5.2rem;
   z-index: 1;
   height: 700px;
 }
+
+.btn_snd {
+
+  width: 10rem;
+  height: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.custom-file-input~.custom-file-label::after {
+  content: "EXAMINAR";
+}
+
+.inputfile-box {
+  position: relative;
+}
+
+.inputfile {
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.file-box {
+
+
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px 5px 5px;
+  box-sizing: border-box;
+  color: #cccccc;
+  font-family: "Montserrat",
+    sans-serif;
+  font-size: 15px;
+  height: calc(2rem - 2px);
+}
+
+.file-button {
+  background: #cccccc;
+  font-weight: bold;
+  color: #333131;
+  padding: 0.7rem;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  top: 0px;
+  right: 0px;
+}
+
+/*Fin Nuevo Contactos*/
 
 .lin {
   height: 10px;
@@ -823,40 +876,6 @@
   text-align: center;
   margin: 5% 0 5% 0;
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .text-cont {
-    font-size: 20pt;
-  }
-
-  #contac {
-    width: 100%;
-    height: 100%;
-  }
-
-  .pop-up {
-    margin-top: 2.5rem;
-    margin-right: 0rem;
-    padding-right: 0.5rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .text-cont {
-    font-size: 20pt;
-  }
-
-  #contac {
-    width: 100%;
-    height: 100%;
-  }
-  .form {
-    width: 100%;
-  }
-}
-
-/* Final responsive */
 
 /*Aquí acaba el css para candidatos*/
 
