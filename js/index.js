@@ -4,8 +4,8 @@ window.onscroll = function() {
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 110 ||
-    document.documentElement.scrollTop > 110
+    document.body.scrollTop > 180 ||
+    document.documentElement.scrollTop > 180
   ) {
     document.getElementById("logo_menu").style.visibility = "visible";
   } else {

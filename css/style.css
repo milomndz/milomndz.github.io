@@ -58,7 +58,7 @@ body {
   align-content: center;
   margin-left: 10vw;
   margin-top: 175px;
-  padding-top: 1rem;
+  padding-top: 5.5rem;
   z-index: 1;
   height: 75vh;
   background: rgba(1, 27, 45, 0.6);
@@ -80,6 +80,7 @@ body {
   text-align: center;
   height: 50vh;
   justify-content: center;
+  padding: 5px;
 }
 
 #trabajo-1 {
