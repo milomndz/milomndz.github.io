@@ -1,4 +1,5 @@
 body {
+<<<<<<< Updated upstream
   background-color: #001122;
 }
 .txt_nav {
@@ -294,6 +295,253 @@ body {
   color: #808080;
   font-size: 14pt;
   font-family: "Montserrat", sans-serif;
+=======
+    background-color: #001122;
+}
+
+.txt_nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.cont_menu {
+    width: 100%;
+}
+
+.nav_menu {
+    background-color: #13004f;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.menu_li {
+    margin: 0 4%;
+}
+
+.logo_menu {
+    height: auto;
+    width: 100%;
+}
+
+.serv {
+    background-color: #ffffff;
+}
+
+#principal {
+    margin-top: 13vh;
+    background-image: url("../img/fondo1.png");
+    background-color: #cccccc;
+    height: 72vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.header_menu .active {
+    padding-bottom: 10px;
+    padding-top: 17px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffb600;
+    border-bottom-width: 5px;
+}
+
+.nav-item {
+    padding-top: 17px;
+}
+
+.card-logo {
+    width: 31vw;
+    text-align: center;
+    background-color: #011b2d;
+    opacity: 0.6;
+    align-content: center;
+    margin-left: 10vw;
+    margin-top: 230px;
+    z-index: 1;
+    height: 65vh;
+}
+
+#pizza {
+    margin-left: 152px;
+    margin-top: -20px;
+}
+
+#quienes-p {
+    height: 48vh;
+}
+
+#quienes-1 {
+    background-color: #ffb600;
+    width: 31vw;
+    display: flex;
+    text-align: center;
+    height: 50vh;
+    justify-content: center;
+}
+
+#trabajo-1 {
+    background-color: white;
+    padding: 5vh 8vh 5vh 20vh;
+}
+
+#subprincipal {
+    margin-top: 45vh;
+}
+
+#trabajo-2 {
+    background-image: url("../img/fondo2.png");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#quienes-2 {
+    background-color: white;
+    height: 50vh;
+    width: 50vw;
+    padding: 5vh;
+}
+
+.subtitulo {
+    font-size: 27pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #001122;
+}
+
+.subtitulo-b {
+    font-size: 27pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.parrafos {
+    margin-top: 4vh;
+    text-align: center;
+    padding: 5vh 8vh 5vh 20vh;
+}
+
+#raya-izq {
+    padding-left: 8px;
+    border-left-style: solid;
+    border-left-color: #ffb600;
+    border-left-width: 5px;
+    padding-left: 12vh;
+}
+
+.parrafo {
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: #000000;
+}
+
+.parrafo-b {
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.raya {
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 230px;
+}
+
+.raya-1 {
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 430px;
+}
+
+.texto {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+#contact {
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/fondo-contactos.png');
+}
+
+.form {
+    width: 31vw;
+    text-align: center;
+    background-color: rgba(1, 27, 45, 0.6);
+    align-content: right;
+    padding: 1vw;
+    margin-left: 67vw;
+    margin-top: 230px;
+    z-index: 1;
+    height: 700px;
+}
+
+.lin {
+
+    height: 10px;
+    background: #ffb600;
+}
+
+.linv {
+    margin-left: -5vh;
+    border: none;
+    border-right: 5px solid #ffb600;
+    height: 10vh;
+    width: 20px;
+}
+
+.text_servicios {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #7c7c7c;
+    margin: 4% 0 4% 0;
+    text-align: center
+}
+
+.text-cont {
+    font-size: 27pt;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #ffffff;
+}
+
+#footers {
+    background-color: #ffffff;
+    padding-top: 4vh;
+}
+
+#footer-redes {
+    background-color: #e6e6e6;
+    padding-left: 18vh;
+}
+
+.footer-p {
+    padding-top: 2.5vh;
+    padding-left: 12vh;
+    color: #808080;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parrafo-2 {
+    font-size: 18pt;
+    font-family: 'Montserrat', sans-serif;
+>>>>>>> Stashed changes
 }
 
 .parrafo-2 {
@@ -303,6 +551,7 @@ body {
 
 /* Style the tab */
 .tab {
+<<<<<<< Updated upstream
   overflow: hidden;
 }
 .inst {
@@ -331,24 +580,74 @@ body {
 .text-modal {
   font-weight: bold;
   color: #00bfb1;
+=======
+    overflow: hidden;
+
+}
+
+.inst {
+    color: #ddd;
+    text-align: justify;
+}
+
+.form-modal {
+    padding: 4vh;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right: 2vh;
+    font-weight: bold;
+    background-color: #ddd;
+    color: #7c7c7c;
+}
+
+.text-modal {
+    font-weight: bold;
+    color: #00bfb1;
+>>>>>>> Stashed changes
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
+<<<<<<< Updated upstream
   background-color: #ddd;
+=======
+    background-color: #ddd;
+>>>>>>> Stashed changes
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
+<<<<<<< Updated upstream
   color: #ddd;
   background-color: #00bfb1;
+=======
+    color: #ddd;
+    background-color: #00bfb1;
+>>>>>>> Stashed changes
 }
 
 /* Style the tab content */
 .tabcontent {
+<<<<<<< Updated upstream
   display: none;
   padding: 6px 12px;
   border-top: none;
+=======
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+>>>>>>> Stashed changes
 }
 
 /*Código de Servicios (parte de Herberth)*/
@@ -360,6 +659,7 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400i&display=swap");
 
 * {
+<<<<<<< Updated upstream
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -507,9 +807,192 @@ body {
   color: #7c7c7c;
   margin: 4% 0 4% 0;
   text-align: center;
+=======
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+.menu {
+    height: 100px;
+    background: #13004f;
+}
+
+.cont_ini {
+    height: auto;
+}
+
+.nues_ser {
+    height: auto;
+    background: #ffffff;
+}
+
+.img_nues_ser {
+    height: auto;
+    background: #ffffff;
+}
+
+.letra_nues {
+    height: 300px;
+    background: white;
+}
+
+.linea_nues {
+    height: auto;
+    background: #ffffff;
+}
+
+.linea_naranja {
+    height: 10px;
+    margin-top: 3em;
+    background: #ffb600;
+}
+
+.letra1_nues {
+    height: auto;
+    background: #ffffff;
+}
+
+.letra_1_letra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 240%;
+    font-weight: 800;
+    color: #001122;
+    margin-left: -4%;
+}
+
+.desc_nues {
+    height: auto;
+    background: #ffffff;
+}
+
+.letra_2_letra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    text-align: justify;
+    color: #000000;
+    margin-left: -4%;
+}
+
+.img_nues_1 {
+    height: 300px;
+    background: #ffffff;
+}
+
+.img_1_ser {
+    height: 100%;
+    width: auto;
+}
+
+.font_parra1 {
+    background: #001122;
+}
+
+.parra1 {
+    height: auto;
+}
+
+.letra_3_letra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+    text-align: center;
+    color: #ffffff;
+    margin: 3% 0 3% 0;
+}
+
+.servi_cont {
+    padding-bottom: 3em;
+}
+
+.ser {
+    height: auto;
+}
+
+.text_nue_ser {
+    height: auto;
+    background: #ffb600;
+    margin-top: -1%;
+}
+
+.linea_verti {
+    height: 100px;
+}
+
+.linea_nue {
+    background: #ffffff;
+    height: 4em;
+    width: 0.5em;
+    margin-top: 1.4em;
+}
+
+.nue_ser_text {
+    height: auto;
+}
+
+.nue_ser_letra1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 180%;
+    font-weight: 800;
+    color: #001122;
+    margin: 4% 0 4% 0;
+}
+
+.text_selec {
+    height: auto;
+}
+
+.text_select_1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 130%;
+    color: #000000;
+    margin: 5% 0 5% -3%;
+}
+
+.menu_servicio {
+    border: none;
+}
+
+.empresariales {
+    height: auto;
+    background: #eef0ef;
+}
+
+.candidatos {
+    height: auto;
+    background: #eef0ef;
+}
+
+.centro {
+    height: auto;
+    background: #eef0ef;
+}
+
+.empresariales,
+.candidatos,
+.centro {
+    cursor: pointer;
+}
+
+.cont {
+    height: 100%;
+}
+
+.text_servicios {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #7c7c7c;
+    margin: 4% 0 4% 0;
+    text-align: center
+>>>>>>> Stashed changes
+}
+
 /*Aquí empieza el css de servicios empresariales*/
 .cont_empre {
+<<<<<<< Updated upstream
   height: auto;
   background: #eef0ef;
   padding-bottom: 4em;
@@ -558,11 +1041,70 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 5% 0 5% 0;
+=======
+    height: auto;
+    background: #eef0ef;
+    padding-bottom: 4em;
 }
+
+.empre_info {
+    height: auto;
+    background: #ffffff;
+    margin: 2em 0 2em 0;
+}
+
+.img_empre {
+    height: auto;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.titulo_empre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #000000;
+    margin: 4% 0 4% 0;
+    text-align: center;
+}
+
+.linea_empre {
+    width: auto;
+    height: 0.2em;
+    background: #ffb600;
+    margin: -3% 0;
+}
+
+.text_empre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    color: #000000;
+    margin: 4% 0 4% 0;
+    text-align: center;
+    margin: -1% 0 2% 0;
+}
+
+.bt_info {
+    width: auto;
+    height: auto;
+    background: #ffb600;
+}
+
+.bt_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin: 5% 0 5% 0;
+>>>>>>> Stashed changes
+}
+
 /*Aquí acaba el css de servicios empresariales*/
 
 /*Aquí empieza el css para candidatos*/
 .cont_txt_candi h1 {
+<<<<<<< Updated upstream
   margin: 0px;
   padding: 0px;
 }
@@ -607,7 +1149,63 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 5% 0 5% 0;
+=======
+    margin: 0px;
+    padding: 0px;
 }
+
+.cont_candi {
+    height: auto;
+    padding-bottom: 4em;
+}
+
+.cont_img_candi {
+    height: auto;
+}
+
+.txt_img_candi {
+    height: auto;
+}
+
+.img_candi {
+    width: 100%;
+    height: auto;
+}
+
+.txt_conte_img {
+    height: 100%;
+}
+
+.cont_txt_candi {
+    height: auto;
+}
+
+.txt_candi {
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: 800;
+    color: #000000;
+    margin: 5% 0 5% 0;
+}
+
+.bt_apli {
+    height: auto;
+    background: #ffb600;
+    margin-top: 1em;
+    padding: 0.1em 0;
+}
+
+.txt_bt_apli {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin: 5% 0 5% 0;
+>>>>>>> Stashed changes
+}
+
 /*Aquí acaba el css para candidatos*/
 
 /*Aquí acaba el código de Servicios*/
