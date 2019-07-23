@@ -333,7 +333,7 @@
 
   .form {
     margin-left: 48vw !important;
-    margin-top: 8.5vh !important;
+    margin-top: 8vh !important;
     width: 48vw !important;
     height: 110vh !important;
   }
@@ -508,11 +508,16 @@
 }
 
 @media (max-width: 425px) {
+  #contact {
+    padding: 0;
+  }
+
   .form {
     margin-left: 0vw !important;
-    margin-top: 11.5vh !important;
-    width: 94vw !important;
+    margin-top: 10vh !important;
+    width: 100vw !important;
     height: 180vh !important;
+    padding: 0.5rem;
   }
 
   .text-cont {
@@ -526,6 +531,7 @@
 
   .btn1 {
     margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
   }
 }
 @media (max-width: 400px) {
